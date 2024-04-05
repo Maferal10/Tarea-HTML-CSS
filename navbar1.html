@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Navbar</title>
+</head>
+<body>
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        color: white
+      }
+      
+      body {
+        font-family: system-ui;  
+      }
+        
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 24px 16px 24px;
+        border-radius:60px;  
+        background-color: #24252a;  
+      }
+      
+      .menu-nav li {
+          display: inline-block;
+          margin-left: 8px;      
+      
+        }  
+        .menu-nav li a {
+            font-weight: 500;
+            transition: color 0.2s; 
+        }
+        
+        .menu-nav li a:hover {
+          color: yellow;
+        }</style>
+<nav> 
+    <ul class="menu-nav">
+          <li>
+            <a href="./home.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="./Services.html">Services</a>
+            <li>
+                <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+</html>
